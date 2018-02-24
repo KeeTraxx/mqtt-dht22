@@ -18,10 +18,10 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // config.h should have the following contents:
 /*
-const char *ssid = "spynet-kt";
-const char *password = "portal88";
-const char *mqtt_server = "rancher.compile.ch";
-const char *mqtt_topic = "dht11";
+const char *ssid = "WIFI_SSID";
+const char *password = "WIFI_PASSWORD";
+const char *mqtt_server = "my.mqtt.server.com";
+const char *mqtt_topic = "my_mqtt_topic";
 */
 
 #include "config.h"
